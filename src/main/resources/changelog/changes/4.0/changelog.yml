@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 4.0.work-order_table_creation
+      author: siva
+      changes:
+        - sqlFile:
+            path: table-work-order-create.sql
+            relativeToChangelogFile: true

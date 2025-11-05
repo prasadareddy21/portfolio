@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-schema
+      author: you
+      changes:
+        - sql:
+            sql: CREATE SCHEMA IF NOT EXISTS portfolio_app;
+  - include:
+      file: changes/1.0/changelog.yml
+      relativeToChangelogFile: true
+  - include:
+      file: changes/2.0/changelog.yml
+      relativeToChangelogFile: true
+  - include:
+      file: changes/3.0/changelog.yml
+      relativeToChangelogFile: true
+  - include:
+      file: changes/4.0/changelog.yml
+      relativeToChangelogFile: true
