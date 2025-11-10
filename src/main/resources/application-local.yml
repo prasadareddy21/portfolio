@@ -21,6 +21,8 @@ spring:
     init:
       mode: never
       continue-on-error: true
+  liquibase:
+    contexts: local
 logging:
   level:
     org.hibernate.SQL: DEBUG

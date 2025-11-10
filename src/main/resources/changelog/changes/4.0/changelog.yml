@@ -6,3 +6,4 @@ databaseChangeLog:
         - sqlFile:
             path: table-work-order-create.sql
             relativeToChangelogFile: true
+            context: local  # this is configured in the application.yml or environment yml
