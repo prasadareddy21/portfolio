@@ -1,0 +1,3 @@
+GET {{host}}/property/list
+Content-Type: application/json
+

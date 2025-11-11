@@ -4,5 +4,5 @@ databaseChangeLog:
       author: siva
       changes:
         - sqlFile:
-            path: table-lease-create.sql
+            path: ../2.0/table-unit-create.sql
             relativeToChangelogFile: true

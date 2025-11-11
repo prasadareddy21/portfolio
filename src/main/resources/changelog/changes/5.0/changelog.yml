@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 4.0.unit_table_creation
+      author: siva
+      changes:
+        - sqlFile:
+            path: ../5.0/table-lease-create.sql
+            relativeToChangelogFile: true
+            context: local  # this is configured in the application.yml or environment yml
