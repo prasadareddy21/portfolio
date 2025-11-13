@@ -1,3 +1,3 @@
 GET {{host}}/property/list
 Content-Type: application/json
-
+Authorization: Basic user b1d4cd49-3fae-444c-8bfc-396323701eaa

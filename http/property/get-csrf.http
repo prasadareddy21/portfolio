@@ -1,0 +1,4 @@
+GET {{host}}/csrf
+Content-Type: application/json
+Authorization: Basic user 44ba9d18-b050-4cf4-85b8-e3778c5d465f
+
