@@ -1,12 +1,13 @@
 POST {{host}}/property/save
 Content-Type: application/json
+Authorization: Basic siva 12345
 
 {
   "id": 2,
     "addressL1": "Test 2",
     "city": "Test 2",
-    "state": "Test 1",
-    "country": "test 1",
+    "state": "Test 3",
+    "country": "test 3",
     "zip": "test 1",
     "createdBy": "test 1",
     "createdDate": "2025-04-09T00:00:00.000000000"
